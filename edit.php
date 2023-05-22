@@ -68,6 +68,7 @@ $hasil = mysqli_fetch_array($Tampil);
                     <td height="40">&nbsp;</td>
                     <td class="keterangan">Hobi</td>
                     <td><input type="text" name="hobi" class="inputan" value="<?=$hasil['hobi']?>"></td>
+                    <input type="hidden" name="nisn_asli" value="<?=$hasil['nisn']?>">
                 </tr>
                 <tr>
                     <td height="50">&nbsp;</td>
