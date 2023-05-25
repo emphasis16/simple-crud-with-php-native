@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 27, 2023 at 09:06 AM
--- Server version: 10.4.27-MariaDB
--- PHP Version: 8.2.0
+-- Waktu pembuatan: 25 Bulan Mei 2023 pada 12.25
+-- Versi server: 10.4.27-MariaDB
+-- Versi PHP: 8.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `siswa`
+-- Struktur dari tabel `siswa`
 --
 
 CREATE TABLE `siswa` (
@@ -37,30 +37,21 @@ CREATE TABLE `siswa` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `siswa`
---
-
-INSERT INTO `siswa` (`nisn`, `nama`, `kompetensi`, `alamat`, `telepon`, `hobi`) VALUES
-(2106881022, 'Farrelino Arvia Atmajaya', 'SIJA', 'Jl. Karangkoja Utara No.665', '08813718712', 'main game ngoding'),
-(2106881023, 'Elisabeth', 'TEDK', 'Jl. Simpang Lima', '08813718712', 'Gatau'),
-(2106881034, 'Nayla Audyna Maharina', 'SIJA', 'Jl. Candi Pawon Timur 6', '087828308798', 'ngebuci heri');
-
---
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `siswa`
+-- Indeks untuk tabel `siswa`
 --
 ALTER TABLE `siswa`
   ADD PRIMARY KEY (`nisn`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `siswa`
+-- AUTO_INCREMENT untuk tabel `siswa`
 --
 ALTER TABLE `siswa`
   MODIFY `nisn` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2106881099;
