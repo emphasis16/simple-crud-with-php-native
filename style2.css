@@ -52,6 +52,7 @@ a{
 }
 
 .atasan{
+    border-radius: 10px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -81,4 +82,17 @@ th{
 a img{
     width: 25px;
     height: auto;
+}
+
+.bokong{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    background-color: white;
+    color: black;
+}
+
+.opsiplus{
+    font-style: none;
 }
